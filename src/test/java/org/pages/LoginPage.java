@@ -41,6 +41,7 @@ public class LoginPage extends BaseClass {
 		sendKeys(getTxtusername().get(0), user);
 		sendKeys(getTxtpass(), pass);
 		clickBtn(getBtnlogin());
+		System.out.println("Login page for facebook website");
 	}
 	
 
